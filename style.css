@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arvo', serif;
+    -webkit-tap-highlight-color: transparent;
+}
+.main{
+    background: url(bg.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 22px 0px;
+    align-items: center;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.nav1 img{
+    margin-right: 7px;
+    width: 35px;
+}
+.nav-btn{
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.329);
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.home{
+    display: flex;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+.home1{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.home11{
+    width: 35%;
+    margin-right: 10px;
+}
+.home22{
+    width: 70%;
+    margin-left: 10px;
+}
+.home22 img{
+    width: 100%;
+}
+.home11 p{
+    margin: 25px 0px;
+}
+.home-btn{
+    background-color: rgb(219, 94, 136);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    padding: 10px 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.section{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1{
+    width: 60%;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+    margin: 2rem 0rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.253);
+}
+.c1{
+    width: 50%;
+}
+.c2{
+    width: 50%;
+}
+.c2 img{
+    width: 100%;
+}
+.c1 p{
+    margin: 2rem 0rem;
+}
+.join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.j1{
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.253);
+}
+.j1 h1{
+    margin-bottom: 1.4rem;
+}
+footer{
+    background-color: rgb(11, 11, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    padding: 5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+.foot{
+    margin: 0px 5px;
+}
+.foot1 img{
+    margin-right: 12px;
+    width: 20px;
+    filter: invert(1);
+}
+.foot12 img{
+    width: 30px;
+}
+.foot11{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.foot2 p{
+    margin: 15px 0px;
+}
+.foot3 p{
+    margin: 15px 0px;
+}
+.foot12{
+    margin-bottom: 20px;
+}
+.foot41{
+    display: flex;
+    flex-direction: row;
+}
+.foot4 img{
+    width: 50px;
+}
+@media screen and (max-width:1378px) {
+    .home1{
+        width: 75%;
+    }
+    .home11{
+        width: 50%;
+    }
+}
+@media screen and (max-width:1161px) {
+    .home1{
+        width: 85%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .home11{
+        width: 42%;
+    }
+    .sec1{
+        width: 75%;
+    }
+}
+@media screen and (max-width:881px) {
+    .home1{
+        flex-direction: column-reverse;
+    }
+    .home11{
+        width: 90%;
+        text-align: center;
+    }
+    .home22{
+        margin-top: 7rem;
+        width: 100%;
+    }
+    .footer{
+        width: 85%;
+    }
+}
+@media screen and (max-width:740px) {
+    .footer{
+        width: 95%;
+    }
+    .sec1{
+        width: 90%;
+    }
+    .card{
+        margin: 3rem 0rem;
+    }
+}
+@media screen and (max-width:640px) {
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 85%;
+    }
+    .foot{
+        margin: 10px 0px;
+    }
+    .home1{
+        width: 90%;
+    }
+}
+@media screen and (max-width:533px) {
+    .sec1{
+        width: 95%;
+    }
+    .home1{
+        width: 95%;
+    }
+}
